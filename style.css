@@ -108,6 +108,78 @@
     width: 700px;
 }
 
+.content2-container {
+    height: 200px;
+    width: 1500px;
+    background-color: #ebebeb;
+    border-radius: 15px;
+}
+.content2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.icon1 {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 5px solid #94bedb;
+    background-color: #386BB4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 2rem;
+}
+.icon2 {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 5px solid #ffdb85;
+    background-color: #FDB714;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+}
+.icon3 {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 5px solid #94bedb;
+    background-color: #386BB4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+}
+.icon-des {
+    font-size: 0.90rem;
+    color: #232323;
+}
+.icon-heading {
+    font-size: 1.25rem;
+    color: #232323;
+}
+.sub-contents {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.content2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.btn-search {
+    margin-bottom: 0px;
+    padding: 30px 50px;
+    border-radius: 20px;
+
+}
 /* Screen Size 1025px - 1200px */
 @media (min-width : 1200px) and (max-width : 1500px) {
 
