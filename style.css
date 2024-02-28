@@ -184,6 +184,33 @@
     display: flex;
     gap: 50px;
 }
+
+/* Destination part styles */
+
+.destination-heading {
+    font-size: 5rem;
+    color: #373737;
+    text-align: center;
+    margin-top: 10px;
+}
+.destination-blue {
+    color: #386BB4;
+}
+.destination-paragraph {
+    font-size: 1rem;
+    color: #373737;
+    text-align: center;
+    margin-top: 10px;
+}
+.button-destination {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+.destination-text {
+    margin-top: 70px;
+}
 /* Screen Size 1025px - 1200px */
 @media (min-width : 1200px) and (max-width : 1500px) {
 
@@ -232,6 +259,15 @@
     .flex2-content {
         display: flex;
         gap: 40px;
+    }
+
+    /* Destination Part Styles */
+
+    .destination-heading {
+        font-size: 3.5rem;
+        color: #373737;
+        text-align: center;
+        margin-top: 10px;
     }
 }
 
@@ -285,6 +321,15 @@
         display: flex;
         gap: 30px;
     }
+
+    /* Destination part styles */
+    .destination-heading {
+        font-size: 3rem;
+        color: #373737;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
 }
 @media (min-width : 769px) and (max-width : 1024px) {
     .nav-bar {
@@ -377,6 +422,12 @@
     .flex2-content {
         display: flex;
         gap: 20px;
+    }
+    .destination-heading {
+        font-size: 2.25rem;
+        color: #373737;
+        text-align: center;
+        margin-top: 10px;
     }
 }
 
@@ -491,7 +542,16 @@
         border-radius: 5px;
         font-size: 0.75rem;
     }
-    
+    .destination-heading {
+        font-size: 3.5rem;
+        color: #373737;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .all-destination {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
 }
 
 @media (max-width : 480px) {
@@ -623,5 +683,14 @@
     .content2 {
         justify-content: center;
     }
-    
+    .destination-heading {
+        font-size: 2.5rem;
+        color: #373737;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .all-destination {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
 }
