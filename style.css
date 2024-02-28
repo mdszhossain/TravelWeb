@@ -219,3 +219,114 @@
         margin-right: 20px;
     }
 }
+
+@media (min-width : 481px) and (max-width : 768px) {
+    /* navbar style modified */
+    .nav-bar {
+        height: 280px;
+        flex-direction: column;
+    }
+
+    .nav-items > .items-nav li a {
+        font-size: 0.75rem;
+    }
+    .nav-items > .items-nav {
+        gap: 25px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: -35px;
+    }
+    .nav-logo {
+        margin-left: 100px;
+    }
+
+    /* main section style modified */
+    .Book {
+        font-size: 1.5rem;
+    }
+    .text-part {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content1-heading {
+        font-size: 3.5rem;
+        text-align: center;
+        line-height: 4rem;
+    }
+    .content1-des {
+        text-align: center;
+    }
+    .main-img {
+        width: 400px;
+    }
+    .content1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content1-flex {
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+@media (max-width : 480px) {
+    /* navbar style modified */
+    .nav-bar {
+        height: 500px;
+        flex-direction: column;
+    }
+
+    .nav-items > .items-nav li a {
+        font-size: 1rem;
+    }
+    .circle-list {
+        flex-direction: column;
+    }
+    .nav-items > .items-nav {
+        gap: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: -40px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .nav-logo {
+        margin-left: 100px;
+        margin-bottom: 30px;
+    }
+
+    /* main section style modified */
+    .Book {
+        font-size: 1.5rem;
+    }
+    .text-part {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content1-heading {
+        font-size: 2.5rem;
+        text-align: center;
+        line-height: 3rem;
+    }
+    .content1-des {
+        text-align: center;
+    }
+    .main-img {
+        width: 300px;
+    }
+    .content1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content1-flex {
+        display: flex;
+    }
+    
+}
