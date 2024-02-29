@@ -263,11 +263,14 @@
     margin-top: 10px;
 }
 .des-img1 {
-    background-color: #ebebeb;
-    height: 300px;
-    width: 300px;
     display: flex;
     justify-content: center;
+    border-radius: 10px;
+}
+.tour-place1 {
+    height: 300px;
+    width: 300px;
+    background-color: #ebebeb;
     border-radius: 10px;
 }
 .des-image-content {
@@ -275,6 +278,23 @@
     justify-content: space-evenly;
     align-items: center;
     margin-top: 80px;
+}
+.small-txt-des {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.days {
+    margin-left: 10px;
+}
+.des-img-heading {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.price {
+    margin-right: 10px;
 }
 
 
@@ -344,6 +364,31 @@
         color: #373737;
         text-align: center;
         margin-top: 10px;
+    }
+    /* cart section  */
+    .img1-des {
+        width: 250px;
+        background-image: url("images/place1.jpg");
+        margin-top: 5px;
+    }
+    .img2-des {
+        width: 250px;
+        background-image: url("images/place2.jpg");
+        margin-top: 5px;
+    }
+    .img3-des {
+        width: 250px;
+        background-image: url("images/place3.jpg");
+        margin-top: 5px;
+    }
+    .img4-des {
+        width: 250px;
+        background-image: url("images/place4.jpg");
+        margin-top: 5px;
+    }
+    .tour-place1 {
+        height: 300px;
+        width: 260px;
     }
 }
 
