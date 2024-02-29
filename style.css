@@ -211,6 +211,82 @@
 .destination-text {
     margin-top: 70px;
 }
+.des-icons {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.img1-des {
+    height: 180px;
+    width: 280px;
+    background-color: #ebebeb;
+    background-image: url("images/place1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.img2-des {
+    height: 180px;
+    width: 280px;
+    background-color: #ebebeb;
+    background-image: url("images/place2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.img3-des {
+    height: 180px;
+    width: 280px;
+    background-color: #ebebeb;
+    background-image: url("images/place3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.img4-des {
+    height: 180px;
+    width: 280px;
+    background-color: #ebebeb;
+    background-image: url("images/place4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.des-img1 {
+    background-color: #ebebeb;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.des-image-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Screen Size 1025px - 1200px */
 @media (min-width : 1200px) and (max-width : 1500px) {
 
@@ -270,6 +346,13 @@
         margin-top: 10px;
     }
 }
+
+
+
+
+
+
+
 
 @media (min-width : 1025px) and (max-width : 1200px) {
 
@@ -331,6 +414,13 @@
     }
     
 }
+
+
+
+
+
+
+
 @media (min-width : 769px) and (max-width : 1024px) {
     .nav-bar {
         height: 300px;
@@ -430,6 +520,14 @@
         margin-top: 10px;
     }
 }
+
+
+
+
+
+
+
+
 
 @media (min-width : 481px) and (max-width : 768px) {
     /* navbar style modified */
@@ -553,6 +651,14 @@
         padding: 10px 20px;
     }
 }
+
+
+
+
+
+
+
+
 
 @media (max-width : 480px) {
     /* navbar style modified */
