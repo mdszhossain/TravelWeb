@@ -421,6 +421,11 @@
         height: 300px;
         width: 260px;
     }
+    .dream-text-heading {
+        font-size: 3rem;
+        line-height: 4rem;
+        color: rgb(55, 55, 55);
+    }
 }
 
 
@@ -507,6 +512,15 @@
     .tour-place1 {
         height: 300px;
         width: 210px;
+    }
+
+    .dream-text-heading {
+        font-size: 3rem;
+        line-height: 4rem;
+        color: rgb(55, 55, 55);
+    }
+    .top-small-txt {
+        font-size: 1.5rem;
     }
     
 }
@@ -640,6 +654,34 @@
     }
     .small-txt-des {
         font-size: 0.75rem;
+    }
+
+    .dream {
+        flex-direction: column;
+    }
+    .dream-text-heading {
+        font-size: 2.25rem;
+        text-align: center;
+        line-height: 3rem;
+        margin-top: 10px;
+    }
+    .btn-dream {
+        display: flex;
+        justify-content: center;
+    }
+    .top-small-txt {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .top-small-text {
+        justify-content: center;
+    }
+    .top-small-icon {
+        font-size: 1rem;
+    }
+    .dream-content-des {
+        text-align: center;
+        margin-top: 10px;
     }
       
 }
@@ -798,6 +840,36 @@
         flex-wrap: wrap;
         align-content: space-evenly;
     }
+
+
+
+    .dream {
+        flex-direction: column;
+    }
+    .dream-text-heading {
+        font-size: 2.25rem;
+        text-align: center;
+        line-height: 3rem;
+        margin-top: 10px;
+    }
+    .btn-dream {
+        display: flex;
+        justify-content: center;
+    }
+    .top-small-txt {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .top-small-text {
+        justify-content: center;
+    }
+    .top-small-icon {
+        font-size: 1rem;
+    }
+    .dream-content-des {
+        text-align: center;
+        margin-top: 10px;
+    }
 }
 
 
@@ -953,6 +1025,45 @@
         flex-wrap: wrap;
         align-content: space-evenly;
     }
+    
+
+
+
+
+    .dream {
+        flex-direction: column;
+    }
+    .dream-text-heading {
+        font-size: 2.25rem;
+        text-align: center;
+        line-height: 3rem;
+        margin-top: 10px;
+    }
+    .btn-dream {
+        display: flex;
+        justify-content: center;
+    }
+    .top-small-txt {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .top-small-text {
+        justify-content: center;
+    }
+    .top-small-icon {
+        font-size: 1rem;
+    }
+    .dream-content-des {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .place-img {
+        width: 380px;
+    }
+    
+    
+
 }
 
 @media (min-width : 481px) and (max-width : 520px) {
