@@ -286,6 +286,52 @@
     margin-right: 10px;
 }
 
+/* dream section styles */
+.top-small-text {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.top-small-txt {
+    font-size: 2rem;
+    color: #373737;
+}
+.top-small-icon {
+    color: #386BB4;
+    font-size: 2rem;
+}
+.dream-text-heading {
+    font-size: 5rem;
+    line-height: 6rem;
+    color: rgb(55, 55, 55);
+}
+.Lifetime-orange {
+    color: #FDB714;
+}
+.place5-img {
+    background-image: url("images/Place5.jpg");
+}
+.place6-img {
+    background-image: url("images/Place6.jpg");
+}
+.place-img {
+    background-color: #ebebeb;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 280px;
+    width: 450px;
+    margin-top: 10px;
+    border: 5px solid #FDB714;
+    border-radius: 5px;
+}
+
+.dream {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
 
 
 
