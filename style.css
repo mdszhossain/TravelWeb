@@ -908,3 +908,11 @@
         align-content: space-evenly;
     }
 }
+
+@media (min-width : 481px) and (max-width : 520px) {
+    .des-image-content {
+        margin-top: -20px;
+        height: 1400px;
+        align-content: space-evenly;
+    }
+}
