@@ -211,17 +211,6 @@
 .destination-text {
     margin-top: 70px;
 }
-.des-icons {
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    background-color: #ebebeb;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    cursor: pointer;
-}
 .img1-des {
     height: 180px;
     width: 280px;
@@ -368,22 +357,18 @@
     /* cart section  */
     .img1-des {
         width: 250px;
-        background-image: url("images/place1.jpg");
         margin-top: 5px;
     }
     .img2-des {
         width: 250px;
-        background-image: url("images/place2.jpg");
         margin-top: 5px;
     }
     .img3-des {
         width: 250px;
-        background-image: url("images/place3.jpg");
         margin-top: 5px;
     }
     .img4-des {
         width: 250px;
-        background-image: url("images/place4.jpg");
         margin-top: 5px;
     }
     .tour-place1 {
@@ -456,6 +441,26 @@
         color: #373737;
         text-align: center;
         margin-top: 10px;
+    }
+    .img1-des {
+        width: 200px;
+        margin-top: 5px;
+    }
+    .img2-des {
+        width: 200px;
+        margin-top: 5px;
+    }
+    .img3-des {
+        width: 200px;
+        margin-top: 5px;
+    }
+    .img4-des {
+        width: 200px;
+        margin-top: 5px;
+    }
+    .tour-place1 {
+        height: 300px;
+        width: 210px;
     }
     
 }
@@ -564,6 +569,33 @@
         text-align: center;
         margin-top: 10px;
     }
+    .img1-des {
+        width: 180px;
+        margin-top: 5px;
+    }
+    .img2-des {
+        width: 180px;
+        margin-top: 5px;
+    }
+    .img3-des {
+        width: 180px;
+        margin-top: 5px;
+    }
+    .img4-des {
+        width: 180px;
+        margin-top: 5px;
+    }
+    .tour-place1 {
+        height: 300px;
+        width: 190px;
+    }
+    .des-img-heading {
+        font-size: 0.85rem;
+    }
+    .small-txt-des {
+        font-size: 0.75rem;
+    }
+      
 }
 
 
@@ -694,6 +726,31 @@
     .all-destination {
         font-size: 1rem;
         padding: 10px 20px;
+    }
+    .img1-des {
+        width: 250px;
+        margin-top: 5px;
+    }
+    .img2-des {
+        width: 250px;
+        margin-top: 5px;
+    }
+    .img3-des {
+        width: 250px;
+        margin-top: 5px;
+    }
+    .img4-des {
+        width: 250px;
+        margin-top: 5px;
+    }
+    .tour-place1 {
+        height: 300px;
+        width: 260px;
+    }
+    .des-image-content {
+        height: 700px;
+        flex-wrap: wrap;
+        align-content: space-evenly;
     }
 }
 
@@ -843,5 +900,11 @@
     .all-destination {
         font-size: 1rem;
         padding: 10px 20px;
+    }
+    .des-image-content {
+        margin-top: -20px;
+        height: 1400px;
+        flex-wrap: wrap;
+        align-content: space-evenly;
     }
 }
