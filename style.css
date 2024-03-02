@@ -325,7 +325,7 @@
     border-radius: 5px;
 }
 
-.dream {
+#dream {
     display: flex;
     height: 700px;
     align-items: center;
@@ -580,7 +580,7 @@
     .rooms-text {
         margin-top: 100px;
     }
-    .dream {
+    #dream {
         height: 700px;
     }
     
@@ -717,7 +717,7 @@
         font-size: 0.75rem;
     }
 
-    .dream {
+    #dream {
         flex-direction: column;
     }
     .dream-text-heading {
@@ -745,7 +745,7 @@
         margin-top: 10px;
     }
 
-    .dream {
+    #dream {
         height: 1000px;
     }
 
@@ -947,7 +947,7 @@
         margin-top: 10px;
     }
 
-    .dream {
+    #dream {
         height: 1000px;
     }
     .rooms-heading {
@@ -1113,7 +1113,7 @@
 
 
 
-    .dream {
+    #dream {
         flex-direction: column;
     }
     .dream-text-heading {
@@ -1145,7 +1145,7 @@
         width: 320px;
     }
 
-    .dream {
+    #dream {
         height: 1000px;
     }
     
