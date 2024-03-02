@@ -327,6 +327,7 @@
 
 .dream {
     display: flex;
+    height: 700px;
     align-items: center;
     justify-content: space-around;
     margin-top: 150px;
@@ -342,6 +343,9 @@
 }
 .rooms {
     color: #386BB4;
+}
+.room-btn {
+    margin-top: 20px;
 }
 
 .room1-des {
