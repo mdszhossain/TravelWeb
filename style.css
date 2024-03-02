@@ -257,7 +257,7 @@
     border-radius: 10px;
 }
 .tour-place1 {
-    height: 300px;
+    height: 320px;
     width: 300px;
     background-color: #ebebeb;
     border-radius: 10px;
@@ -344,6 +344,38 @@
     color: #386BB4;
 }
 
+.room1-des {
+    background-image: url("images/room1.jpg");
+}
+.room2-des {
+    background-image: url("images/room2.jpg");
+}
+.room3-des {
+    background-image: url("images/room3.jpg");
+}
+.room4-des {
+    background-image: url("images/room4.jpg");
+}
+
+.room-des-heading {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.star {
+    font-size: 1rem;
+    margin-left: 8px;
+    color: #FDB714;
+}
+
+.review {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.review-times {
+    font-size: 0.75rem;
+}
+
 
 
 
@@ -428,7 +460,7 @@
         margin-top: 5px;
     }
     .tour-place1 {
-        height: 300px;
+        height: 320px;
         width: 260px;
     }
     .dream-text-heading {
@@ -525,7 +557,7 @@
         margin-top: 5px;
     }
     .tour-place1 {
-        height: 300px;
+        height: 320px;
         width: 210px;
     }
 
@@ -716,6 +748,13 @@
     .rooms-heading {
         font-size: 2.25rem;
     }
+
+    .star {
+        font-size: 0.85rem;
+    }
+    .review-times {
+        font-size: 0.65rem;
+    }
       
 }
 
@@ -865,7 +904,7 @@
         margin-top: 5px;
     }
     .tour-place1 {
-        height: 300px;
+        height: 310px;
         width: 260px;
     }
     .des-image-content {
