@@ -398,13 +398,15 @@
 }
 
 .blue-dis-img {
-    background-image: url("images/woman-suitcase.png");
-    height: 400px;
-    width: 250px;
+    background-image: url("images/woman-picture.png");
+    height: 460px;
+    width: 300px;
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    background-size: 250px;
-    margin-right: 30px;
+    background-size: cover;
+    background-size: 300px;
+    /* margin-right: 10px; */
+    margin-bottom: 50px;
+    /* margin-left: 60px; */
 }
 .discover-btn {
     background-color: #ffffff;
@@ -413,7 +415,7 @@
 }
 .blue-part {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 .discover-heading {
@@ -430,8 +432,55 @@
     background-color: white;
     color: #386BB4;
 }
-
-
+.text-part-yellow {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 3rem;
+    color: white;
+}
+.yellow-description {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
+.newsletter {
+    font-size: 1rem;
+    font-weight: 600;
+}
+.top-part {
+    display: flex;
+    justify-content: space-evenly;
+}
+.Email-Place {
+    border: 0;
+    height: 50px;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    text-align: center;
+    width: 500px;
+}
+.Submit-Button {
+    height: 50px;
+    border: 0;
+    border-radius: 50px;
+    width: 150px;
+    font-size: 1.5rem;
+    background-color: #386BB4;
+    color: white;
+    /* position: absolute; */
+    right: 200px;
+}
+.down-part {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.yellow-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -525,6 +574,11 @@
 
     .rooms-heading {
         font-size: 3rem;
+    }
+    .discover-panel {
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
     }
 }
 
@@ -631,6 +685,12 @@
     }
     #dream {
         height: 700px;
+    }
+
+    .discover-panel {
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
     }
     
 }
@@ -807,6 +867,11 @@
     }
     .review-times {
         font-size: 0.65rem;
+    }
+    .discover-panel {
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
     }
       
 }
@@ -1002,6 +1067,61 @@
     .rooms-heading {
         font-size: 2.25rem;
     }
+    .discover-panel {
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+    .blue-part {
+        width: 400px;
+        height: 400px;
+    }
+    .yellow-part {
+        width: 400px;
+        height: 400px;
+    }
+    .discover-heading {
+        font-size: 1.5rem;
+    }
+    .discover-description {
+        font-size: 0.75rem;
+    }
+    .discover-btn {
+        font-size: 0.75rem;
+    }
+    .blue-dis-img {
+        background-size: 200px;
+        width: 150px;
+        height: 350px;
+        margin-bottom: 0px;
+    }
+    .yellow-heading {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .yellow-description {
+        font-size: 0.75rem;
+    }
+    .newsletter {
+        font-size: 0.75rem;
+    }
+    .plane {
+        width: 150px;
+    }
+    .Email-Place {
+        font-size: 0.85rem;
+        width: 250px;
+    }
+    .Submit-Button {
+        font-size: 0.85rem;
+    }
+    .email-search-sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
 }
 
 
@@ -1196,6 +1316,61 @@
 
     #dream {
         height: 1000px;
+    }
+
+    .discover-panel {
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+    .blue-part {
+        width: 400px;
+        height: 400px;
+    }
+    .yellow-part {
+        width: 400px;
+        height: 400px;
+    }
+    .discover-heading {
+        font-size: 1.5rem;
+    }
+    .discover-description {
+        font-size: 0.75rem;
+    }
+    .discover-btn {
+        font-size: 0.75rem;
+    }
+    .blue-dis-img {
+        background-size: 200px;
+        width: 150px;
+        height: 350px;
+        margin-bottom: 0px;
+    }
+    .yellow-heading {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .yellow-description {
+        font-size: 0.75rem;
+    }
+    .newsletter {
+        font-size: 0.75rem;
+    }
+    .plane {
+        width: 150px;
+    }
+    .Email-Place {
+        font-size: 0.85rem;
+        width: 250px;
+    }
+    .Submit-Button {
+        font-size: 0.85rem;
+    }
+    .email-search-sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
     }
     
     
