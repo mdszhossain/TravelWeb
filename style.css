@@ -1319,12 +1319,13 @@
     }
 
     .discover-panel {
+        /* max-width: 481px; */
         flex-direction: column;
         gap: 50px;
         align-items: center;
     }
     .yellow-part {
-        width: 300px;
+        width: 310px;
         height: 600px;
     }
     .discover-heading {
@@ -1337,14 +1338,14 @@
         font-size: 0.75rem;
     }
     .blue-dis-img {
-        background-size: 200px;
-        width: 250px;
+        background-size: contain;
+        width: 210px;
         height: 300px;
-        margin-left: 120px;
+        margin-bottom: 0px;
     }
     .yellow-heading {
         font-size: 1.5rem;
-        line-height: 2rem;
+        /* line-height: 2rem; */
     }
     .yellow-description {
         font-size: 0.75rem;
@@ -1357,7 +1358,7 @@
     }
     .Email-Place {
         font-size: 0.85rem;
-        width: 250px;
+        width: 220px;
     }
     .Submit-Button {
         font-size: 0.85rem;
@@ -1371,7 +1372,7 @@
     .blue-part {
         flex-direction: column;
         height: 600px;
-        width: 300px;
+        width: 310px;
     }
     .top-part {
         flex-direction: column;
