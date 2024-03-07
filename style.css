@@ -1323,13 +1323,9 @@
         gap: 50px;
         align-items: center;
     }
-    .blue-part {
-        width: 400px;
-        height: 400px;
-    }
     .yellow-part {
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 600px;
     }
     .discover-heading {
         font-size: 1.5rem;
@@ -1342,9 +1338,9 @@
     }
     .blue-dis-img {
         background-size: 200px;
-        width: 150px;
-        height: 350px;
-        margin-bottom: 0px;
+        width: 250px;
+        height: 300px;
+        margin-left: 120px;
     }
     .yellow-heading {
         font-size: 1.5rem;
@@ -1372,8 +1368,22 @@
         align-items: center;
         gap: 30px;
     }
+    .blue-part {
+        flex-direction: column;
+        height: 600px;
+        width: 300px;
+    }
+    .top-part {
+        flex-direction: column;
+        text-align: center;
+    }
+    .text-part-yellow {
+        text-align: center;
+    }
     
-    
+    .blue-dis-txt {
+        text-align: center;
+    }
 
 }
 
