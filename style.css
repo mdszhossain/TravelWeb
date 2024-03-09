@@ -490,6 +490,7 @@
 }
 .customer-review {
     height: 100vh;
+    width: 100vw;
     background-color: #ebebeb;
     /* margin-top: -200px; */
 }
@@ -619,7 +620,112 @@
     background-color: #FDB714;
 }
 
+footer {
+    max-width: 100vw;
+    height: 600px;
+    background-color: #ebebeb;
+}
+.horizontal-line {
+    height: 3px;
+    width: 1440px;
+    background-color: #386BB4;
+}
+.hr-line {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    /* margin-top: 100px; */
+}
 
+.footer-logo {
+    width: 400px;
+}
+
+.footer-location {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.footer-loc-icon {
+    font-size: 1.5rem;
+    color: #386BB4;
+}
+
+.contact-info {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.contact-info-icon {
+    font-size: 1.5rem;
+    color: #386BB4;
+}
+
+.fax-info {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.fax-info-icon {
+    font-size: 1.5rem;
+    color: #386BB4;
+}
+.contact-and-fax {
+    display: flex;
+    align-items: center;
+    gap: 145px;
+    margin-top: 20px;
+}
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+.social-media-logo {
+    display: flex;
+    gap: 42px;
+    font-size: 1.5rem;
+    align-items: center;
+    margin-top: 20px;
+}
+.social-medi {
+    font-size: 1rem;
+}
+.hr-line2 {
+    margin-top: -60px;
+}
+.horizontal-line2 {
+    background-color: #939393;
+}
+.so-icon {
+    color: #386BB4;
+}
+
+.down-nav-bar > .down-nav-items li{
+    list-style: none;
+}
+.down-nav-bar > .down-nav-items li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.down-nav-items {
+    display: flex;
+    gap: 30px;
+}
+.copyright {
+    font-size: 1rem;
+    font-weight: 500;
+}
+.down-nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 130px;
+}
 
 
 
@@ -724,6 +830,21 @@
     }
     .customer-review {
         height: 1650px;
+    }
+
+    .service-box-division {
+        height: 400px;
+        width: 350px;
+    }
+
+    .service-box-heading {
+        font-size: 1.5rem;
+    }
+    .service-box-description {
+        font-size: 0.95rem;
+    }
+    .horizontal-line {
+        width: 1000px;
     }
 }
 
@@ -845,6 +966,24 @@
     }
     .customer-review {
         height: 1650px;
+    }
+
+    .service-box-division {
+        height: 350px;
+        width: 300px;
+    }
+
+    .service-box-heading {
+        font-size: 1.5rem;
+    }
+    .service-box-description {
+        font-size: 0.95rem;
+    }
+    .box-service {
+        margin-top: 0px;
+    }
+    .horizontal-line {
+        width: 900px;
     }
 }
 
@@ -1034,6 +1173,47 @@
     }
     .customer-review {
         height: 1650px;
+    }
+
+    .service-box {
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 400px;
+    }
+    .box-service {
+        height: 450px;
+        width: 400px;
+        margin-top: 0px;
+    }
+    .service-box-division {
+        align-items: center;
+        justify-content: center;
+    }
+    .service-icon {
+        margin-top: 0px;
+    }
+
+    footer {
+        margin-top: 400px;
+    }
+    .footer-logo {
+        width: 100%;
+    }
+    .contact-and-fax {
+        gap: 70px;
+    }
+    .social-media-logo {
+        gap: 30px;
+    }
+    .middle {
+        justify-content: space-around;
+    }
+    .horizontal-line {
+        width: 700px;
+    }
+    .down-nav-bar {
+        flex-direction: column;
+        gap: 20px;
     }
       
 }
@@ -1288,10 +1468,87 @@
         gap: 80px;
         align-items: center;
     }
+    .customer-img, .customer-img2, .customer-img3 {
+        left: 37%;
+    }
     .customer-review {
-        height: 1650px;
+        height: 1700px;
+        width: 100vw;
+    }
+    .customers {
+        width: 400px;
     }
 
+    .service-box {
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 400px;
+    }
+    .review-heading {
+        font-size: 2rem;
+    }
+    .box-service {
+        margin-top: 0px;
+        height: 350px;
+        width: 300px;
+    }
+    .service-box-division {
+        height: 350px;
+        width: 300px;
+    }.service-icon {
+        margin-top: 5px;
+    }
+    .middle {
+        flex-direction: column;
+    }
+    .down-nav-bar {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .down-nav-bar > .down-nav-items li a {
+        font-size: 0.85rem;
+    }
+    .down-nav-items {
+        gap: 15px;
+    }
+    .footer-location {
+        gap: 10px;
+    }
+    .contact-and-fax {
+        gap: 10px;
+        margin-left: 50px;
+    }
+    .footer-loc-loc {
+        display: flex;
+        justify-content: center;
+    }
+    .social-media-logo {
+        gap: 10px;
+    }
+    .so-med-logo {
+        display: flex;
+        justify-content: center;
+    }
+    .horizontal-line {
+        width: 400px;
+    }
+    .footer-logo{
+        width: 300px;
+    }
+    footer {
+        /* width: 100vw; */
+        height: 700px;
+        margin-top: 250px;
+    }
+    .footer-loc {
+        font-size: 0.85rem;
+    }
+    .social-medi {
+        font-size: 0.85rem;
+    }
+    .copyright {
+        font-size: 0.85rem;
+    }
 }
 
 
@@ -1573,7 +1830,89 @@
         position: relative;
         top: -40px;
     }
+    .customer-review {
+        height: 1700px;
+        width: 100vw;
+    }
+    .service-box {
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 150px;
+    }
+    .service-box-division {
+        width: 300px;
+        height: 350px;
+        
+    }
+    .box-service {
+        margin-top: 0px;
+    }
+    .service-icon {
+        margin-top: 5px;
+    }
+    .icon-box {
+        height: 60px;
+        width: 60px;
+        font-size: 1.5rem;
+    }
+    .service-box-heading, .service-box-description {
+        margin-top: 5px;
+    }
 
+    .middle {
+        flex-direction: column;
+    }
+    .down-nav-bar {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .down-nav-bar > .down-nav-items li a {
+        font-size: 0.85rem;
+        text-align: center;
+    }
+    .down-nav-items {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .footer-location {
+        gap: 10px;
+    }
+    .contact-and-fax {
+        gap: 10px;
+        /* margin-left: 50px; */
+    }
+    .footer-loc-loc {
+        display: flex;
+        justify-content: center;
+    }
+    .social-media-logo {
+        gap: 10px;
+    }
+    .so-med-logo {
+        display: flex;
+        justify-content: center;
+    }
+    .horizontal-line {
+        width: 300px;
+    }
+    .footer-logo{
+        width: 300px;
+    }
+    footer {
+        /* width: 100vw; */
+        height: 900px;
+        margin-top: 250px;
+    }
+    .footer-loc {
+        font-size: 0.85rem;
+    }
+    .social-medi {
+        font-size: 0.85rem;
+    }
+    .copyright {
+        font-size: 0.85rem;
+    }
 }
 
 @media (min-width : 481px) and (max-width : 520px) {
